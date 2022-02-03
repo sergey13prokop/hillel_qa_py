@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e92f6f12-bc6f-49df-b62b-bcb06aec180b" name="Changes" comment="seventh task final" />
+    <list default="true" id="e92f6f12-bc6f-49df-b62b-bcb06aec180b" name="Changes" comment="seventh task final">
+      <change afterPath="$PROJECT_DIR$/../homework04/hw04_task01.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
