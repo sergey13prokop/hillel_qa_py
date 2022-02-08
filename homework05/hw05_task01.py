@@ -5,6 +5,7 @@
 def calculations(x, y):
     return x + y, x - y
 
+
 x = int(input("\nВведите число x = "))
 y = int(input("Введите число y = "))
 
