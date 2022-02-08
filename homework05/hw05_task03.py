@@ -2,8 +2,8 @@
 # и выводить все значения аргументов с индексом аргумента.
 
 def func(*args):
-    for i in range(0, len(args)):
-        print(f'Индекс {i} : аргумент {args[i]}')
+    for idx, arg in enumerate(args):
+        print(f'Индекс {idx} : аргумент {arg}')
 
 
 func(1, 22, 4, 0, 88)
