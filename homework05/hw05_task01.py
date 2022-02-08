@@ -3,11 +3,10 @@
 # А также он должен возвращать как сложение, так и вычитание за один вызов возврата.
 
 def calculations(x, y):
-    dictCalc = dict()
-    dictCalc['сложение'] = x + y
-    dictCalc['вычитание'] = x - y
-    return dictCalc
+    return x + y, x - y
 
 x = int(input("\nВведите число x = "))
 y = int(input("Введите число y = "))
-print("\33[34mcalculations(x, y) =",calculations(x, y))
+
+add, sub = calculations(x, y)
+print(f'\33[34mx+y={add}, x-y={sub}')
